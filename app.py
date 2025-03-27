@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def home():
-    return "Hello from Flask son OpesnShift! triggser webhook"
+    return "Hello from Flask son OpsesnShift! triggser webhook"
 
 if __name__ == "__main__":
     # Listen on all interfaces, on port 8080
